@@ -32,7 +32,7 @@ Contact your account manager to enable the Custom Shipping Rate Service beta on 
 
 4. Select **Use a third-party app to calculate rates** then select **Custom Shipping Rate Service**
 
-![custom shipping rate service](../assets/images/8d5f4adc-84bc-4fea-9cae-20131f5cf712.png "test")
+![custom shipping rate service](../assets/images/8d5f4adc-84bc-4fea-9cae-20131f5cf712.png)
 
 5. Save your changes.
 
