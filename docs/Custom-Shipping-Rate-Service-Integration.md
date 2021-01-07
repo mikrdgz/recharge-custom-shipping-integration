@@ -9,13 +9,13 @@ Contact your account manager to enable the Custom Shipping Rate Service beta on 
 
 1. Go to the **Integrations** page and navigate to **All Integrations**
 
-![integrations](../assets/images/integrations.png)
+![integrations](/assets/images/integrations.png)
 
 3. Select **Get** under **Custom Shipping Rate Service**
 
 4. Fill in the **URL** and **Header** fields: 
 
-![custom shipping rate](../assets/images/customservice.png)
+![custom shipping rate](/assets/images/customservice.png)
 
 - **Custom Shipping Rate Service URL (required)** - This is the https url of your custom shipping rate service endpoint
 - **Custom Headers (optional)** - Add any headers here that your service requires
@@ -32,7 +32,7 @@ Contact your account manager to enable the Custom Shipping Rate Service beta on 
 
 4. Select **Use a third-party app to calculate rates** then select **Custom Shipping Rate Service**
 
-![custom shipping rate service](../assets/images/addrate.png)
+![custom shipping rate service](/assets/images/addrate.png)
 
 5. Save your changes.
 
