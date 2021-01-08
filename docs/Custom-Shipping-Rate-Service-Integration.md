@@ -35,6 +35,3 @@ Contact your account manager to enable the Custom Shipping Rate Service beta on 
 ![custom shipping rate service](assets/images/addrate.png)
 
 5. Save your changes.
-
-
-This is a change to commit
