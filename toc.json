@@ -6,12 +6,12 @@
       },
       {
         "type": "item",
-        "title": "Enable Custom Shipping Rates",
+        "title": "Custom Shipping Rate Service Specs",
         "uri": "docs/Custom-Shipping-Rate-Implementation.md"
       },
       {
         "type": "item",
-        "title": "Custom Shipping Rate Service Specs",
+        "title": "Enable Custom Shipping Rates",
         "uri": "docs/Custom-Shipping-Rate-Service-Integration.md"
       }
     ]
