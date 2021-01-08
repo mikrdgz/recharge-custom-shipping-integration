@@ -1,6 +1,6 @@
 # Custom Shipping Rate Service Integration
 
-You can integrate a custom shipping service with ReCharge to let shoppers use their preferred shipping carrier.
+You can integrate a custom shipping service with ReCharge to let shoppers use their preferred shipping carrier when purchasing a subscription.
 
 ## Prerequisites
 Contact your account manager to enable the Custom Shipping Rate Service beta on your store.
@@ -17,7 +17,7 @@ Contact your account manager to enable the Custom Shipping Rate Service beta on 
 
 ![custom shipping rate](assets/images/customservice.png)
 
-- **Custom Shipping Rate Service URL (required)** - This is the https url of your custom shipping rate service endpoint
+- **Custom Shipping Rate Service URL (required)** - This is the HTTPS URL of your custom shipping rate service API endpoint
 - **Custom Headers (optional)** - Add any headers here that your service requires
 - **Secret Key (optional)** - If your service requires a secret key, provide that here
 
