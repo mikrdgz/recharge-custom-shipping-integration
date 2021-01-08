@@ -1,4 +1,4 @@
-# Custom Shipping Rate Implementation
+# Custom Shipping Rate Specifications
 
 To use Custom Shipping Rates with ReCharge, you will need middleware that can return and receive payloads that follow the guidelines in this article.
 
