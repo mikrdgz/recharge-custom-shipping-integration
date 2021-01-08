@@ -15,7 +15,7 @@ Accept: application/json
 Content-Type: application/json
 ```
 
-### Callback URL
+### Request
 
 ReCharge will send a request to your callback URL with the below fields.
 
