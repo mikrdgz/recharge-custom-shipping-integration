@@ -1,5 +1,9 @@
 {
   "items": [
+     {
+      "type": "divider",
+      "title": "ReCharge Custom Shipping"
+    },
     {
       "type": "item",
       "title": "Custom Shipping Rate Implementation",
@@ -9,10 +13,6 @@
       "type": "item",
       "title": "Custom Shipping Rate Service Integration",
       "uri": "docs/Custom-Shipping-Rate-Service-Integration.md"
-    },
-    {
-      "type": "divider",
-      "title": "APIS"
     }
   ]
 }
