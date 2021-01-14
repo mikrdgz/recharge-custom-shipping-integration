@@ -58,37 +58,38 @@ ReCharge will send a request to your callback URL with the below fields.
 
 **Secondary levels**
 
-|Fields|Description|Type|Required|
-|-|-|-|-|
-|destination|Contains destination fields|object|yes|
-|items|Contains list of items|array|yes|
-|currency|Currency value|string|yes|
-|locale|Locale value|string|yes|
+|Fields|Description|Type|Required|Character Limit|
+|-|-|-|-|-|
+|destination|Contains destination fields|object|yes||
+|items|Contains list of items|array|yes||
+|currency|Currency value|string|yes|3 char currency code|
+|locale|Locale value|string|yes|2 char locale code|
 
 **Destination properties**
 
-|Fields|Description|Type|Required|
-|-|-|-|-|
-|country|Country code|string|yes|
-|postal_code|Address postal code|string|yes|
-|province|Address state/province|string|yes|
-|city|Address city|string|yes|
-|name|Customer name|string|yes|
-|address1|Line 1 of address|string|yes|
-|address2|Line 1 of address|string|no|
+|Fields|Description|Type|Required|Character Limit|
+|-|-|-|-|-|
+|country|Country code|string|yes|2 letter Country Code|
+|postal_code|Address postal code|string|yes|255 char max|
+|province|Address state/province|string|yes|6 char max state/province abbreviation|
+|city|Address city|string|yes|255 char max|
+|name|Customer name|string|yes|510 char max|
+|address1|Line 1 of address|string|yes|255 char max|
+|address2|Line 1 of address|string|no|255 char max|
 
-|Fields|Description|Type|Required|
-|-|-|-|-|
-|vendor|Product vendor|string|yes|
-|variant_id||integrer|no|
-|sku|Product SKU|string|no|
-|requires_shipping|Indicates whether shipping is required for this product|Boolean|yes|
+|Fields|Description|Type|Required|Character Limit|
+|-|-|-|-|-|
+|name|Product name|string|yes|255 char max|
+|sku|Product SKU|string|no|255 char max|
 |quantity|Product count|integer|yes|
-|product_id|Unique product identifier|integer|no|
-|price|Price of product in cents|integer|yes|
-|name|Product name|string|yes|
 |grams|Product weight|integer|yes|
-|fulfillment_service||string|yes|
+|price|Price of product in cents|integer|yes|
+|vendor|Product vendor|string|yes|255 char max|
+|requires_shipping|Indicates whether shipping is required for this product|Boolean|yes|
+|fulfillment_service||string|yes|255 char max|
+|product_id|Unique product identifier|integer|no|
+|variant_id||integrer|no|
+
 
 ## Response
 
@@ -135,13 +136,13 @@ Your application should send a `200 OK` response and JSON payload with the follo
 
 **Secondary level**
 
-|Fields|Description|Type|
-|-|-|-|
-|service_name|Name of shipping service|string|
-|service_code|Service code|string|
-|total_price|Price in cents|string|
-|description|Description of shipping service|string|
-|currency|Currency code|string|
+|Fields|Description|Type|Character Limit|
+|-|-|-|-|
+|service_name|Name of shipping service|string|255 char max|
+|service_code|Service code|string|255 char max|
+|total_price|Price in cents|string|255 char max|
+|description|Description of shipping service|string|255 char max|
+|currency|Currency code|string|255 char max|
 
 
 ## Response codes

@@ -25,7 +25,7 @@ Contact your account manager to enable the Custom Shipping Rate Service beta on 
 
 1. Go to [Shipping Settings](https://support.rechargepayments.com/hc/en-us/articles/360008830553-Setting-up-shipping-for-subscription-products)
 
-2. Under **Shipping Setup**, select the **Use ReCharge Zones, Rates adn Integrations (Advanced)**, and follow the prompts.  Once complete, proceed to the next step.
+2. Under **Shipping Setup**, select the **Use ReCharge Zones, Rates and Integrations (Advanced)**, and follow the prompts.  Once complete, proceed to the next step.
 
 
 3. Navigate to **Manage Zones** and and add a rate to an existing zone (or create a zone if necessary).
@@ -35,3 +35,6 @@ Contact your account manager to enable the Custom Shipping Rate Service beta on 
 ![custom shipping rate service](assets/images/addrate.png)
 
 5. Save your changes.
+
+> **Note**
+> You can add the custom shipping rate service to any number of shipping zones.
