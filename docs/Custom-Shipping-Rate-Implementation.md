@@ -6,7 +6,7 @@ To use Custom Shipping Rates with ReCharge, you will need middleware that can re
 ## Requirements
 Your Custom Shipping Rate API must send and receive data over HTTPS using the `application/json` header.
 
-> HMAC support for your application and the ability to send/recieve custom headers are optional.
+> HMAC support for your application and the ability to send/receive custom headers are optional.
 
 **Request headers**
 
@@ -96,7 +96,7 @@ ReCharge will send a request to your callback URL with the below fields.
 Your application should send a `200 OK` response and JSON payload with the following properties.
 
 <!-- theme: warning-->
-> Any response to ReCharge's request other than `200` to our will be considered an error.
+> Any response to ReCharge's request other than `200` will be considered an error.
 
 **Example response**
 
